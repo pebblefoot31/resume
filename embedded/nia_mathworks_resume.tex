@@ -1,0 +1,159 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Nia Maheshwari
+%------------------------
+
+\documentclass[11pt,a4paper]{article}
+
+% fonts
+\usepackage[sfdefault]{roboto} % Use Roboto font
+\renewcommand{\familydefault}{\sfdefault}
+
+% layout + formatting
+\usepackage[top=0.45in, bottom=0.45in, left=0.5in, right=0.5in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{textcomp}
+\usepackage{xcolor}     % for \color
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pagestyle{empty}
+\urlstyle{same}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}  
+  {\LARGE \textbf{Nia Maheshwari}}\\[1mm] 
+  \href{mailto:nmaheshw@vols.utk.edu}{nmaheshw@vols.utk.edu} \textbar\
+  \href{https://pebblefoot31.github.io/}{pebblefoot31.github.io}\\
+  \href{https://www.linkedin.com/in/nia-maheshwari/}{linkedin.com/in/nia-maheshwari} \textbar\
+  865-232-7482
+\end{center}
+
+%-----------EDUCATION-----------
+\section*{Education}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+  \textbf{University of Tennessee} & Knoxville, TN \\ 
+  Bachelor of Science in Computer Science, Minor in Data Science & Expected Graduation: May 2027 \\
+  Chancellor's \& Engineering Honors Program & Dean's List Scholar 2023--Present \\ 
+\end{tabular*}
+\vspace{-10pt}
+
+%-----------EXPERIENCE-----------
+\section*{Experience}
+
+\noindent
+\textbf{Knoxville Utilities Board} \textbar\ Applications Developer Student \textbar\ EmberJS \textbar\ Bootstrap \textbar\ Tailwind CSS \hfill 2025 \vspace{-4pt} 
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+  \small
+  \item Developed and enhanced customer-facing web applications, improving accessibility and user experience
+  \item Implemented interactive forms and optimized UI components for better user experience 
+\end{itemize}
+\vspace{-5pt}
+
+\noindent
+\textbf{Lawrence Berkeley National Laboratory} \textbar\ Science Undergraduate Lab Intern \hfill 2024 \vspace{-4pt}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+  \small
+  \item Collaborated with scientists on C++ simulation software for ferroelectric materials (FerroX)
+  \item Incorporated and tested advanced time-integration methods (SUNDIALs) to improve computational efficiency
+  \item Optimized simulation performance, significantly reducing runtime while ensuring accuracy
+\end{itemize}
+\vspace{-5pt}
+
+\noindent
+\textbf{University of Tennessee Vol Study Center} \textbar\ Peer Learning Assistant \hfill 2024 \vspace{-4pt}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+  \small
+  \item Tutored undergraduate students in computer science and mathematics
+  \item Developed clear explanations and strategies to help students solve programming problems
+\end{itemize}
+\vspace{-4pt}
+
+% -----------Leadership & Involvement-----------
+\section*{Leadership \& Involvement}
+
+\noindent
+\textbf{UTK Hack4Impact} \textbar\ Learning-Based Project Tech Lead \textbar\ Developer \hfill \\ 
+\noindent\textit{Learning-Based Project Tech Lead} \vspace{-6pt} \hfill 2024
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, partopsep=0pt, parsep=0pt]
+  {\small
+  \item Lead a team of incoming developers in improving internal Applicant Management System 
+  \item Coordinated sprint-style workflow and weekly stand-up meetings
+  \item Mentored developers on best practices and code review processes
+  }
+\end{itemize}
+\vspace{-5pt}
+
+\noindent\textit{Developer} \vspace{-6pt} \hfill Sept 2025--Present
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, partopsep=0pt, parsep=0pt]
+  {\small
+  \item Develop volunteer management system for the \textit{Never Alone Recovery} non-profit 
+  }
+\end{itemize}
+\vspace{-2pt}
+
+\noindent
+\textbf{Society of Women Engineers} \textbar\ Treasurer \textbar\ Chair \textbar\ Mentor \\ [-1pt]
+\noindent\textit{Treasurer} \vspace{-6pt} \hfill 2025--Present
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, partopsep=0pt, parsep=0pt]
+  {\small
+  \item Managed organization funds, including creating the annual budget and overseeing transactions
+  }
+\end{itemize}
+\vspace{-5pt}
+
+\textit{SWEeties Mentor} \vspace{-6pt} \hfill 2024--Present
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, partopsep=0pt, parsep=0pt]
+  {\small
+  \item Mentored underclassmen in career development and networking skills
+  \item Provided guidance on navigating initial college experiences
+  }
+\end{itemize}
+\vspace{-5pt}
+
+\textit{Event Experiments Chair} \vspace{-6pt} \hfill 2024
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, partopsep=0pt, parsep=0pt]
+  {\small
+  \item Collaborated with officer board to coordinate Tomorrow's Engineers Today event
+  \item Designed engaging engineering experiments for middle and high-school students
+  }
+\end{itemize}
+\vspace{-4pt}
+
+%-----------PROJECTS-----------
+\section*{Personal Projects}
+\noindent {\textbf{Project Euler Problems} \textbar\ C++ --- \small Implemented solutions to complex algorithmic and mathematical problems} \\
+\noindent {\textbf{Sudoku Solver} \textbar\ Python --- \small Built a recursive algorithm to solve 9x9 Sudoku puzzles } \\
+\noindent {\textbf{Spot It Game} \textbar\ JS \textbar\ HTML \textbar\ CSS --- \small Developed a digital version of the matching game \textit{Spot-it}} \\
+\vspace{-15pt}
+
+%-------------------------------------------
+
+\section*{Awards \& Honors}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=2pt, parsep=0pt]
+  \item UT-Battelle, John Tummins Memorial, Volunteer, and HOPE Scholarships (2023–Present)
+  \item 1\textsuperscript{st} Place, Pellissippi State CC Coding Competition (2021)
+  \item 1\textsuperscript{st} Place, TN Regional Science Olympiad (2023); 1\textsuperscript{st} Place, TN Regional Science Bowl (2021)
+  \item Farragut High School Departmental Award: Outstanding Student in Science (May 2023)
+  \item Full Scholarship, Governor’s School for Emerging Technologies (June 2021) 
+\end{itemize}
+
+%-----------PROGRAMMING SKILLS-----------
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=*, topsep=0pt, itemsep=1pt, parsep=0pt]
+  \item Languages: C++, Python, HTML/CSS/JavaScript, EmberJS, React/Vite  
+  \item Developer Tools: Vim, VS Code, GitHub, Bash, Linux, Figma, Jupyter Notebook 
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
